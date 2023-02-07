@@ -7,7 +7,7 @@ function Nav({ onSearch }) {
     <div className={styles.container}>
       <div className={styles.logo}>
         <h1>Weather App</h1>
-        <h1 className={styles.henry}></h1>
+        <div className={styles.henry}></div>
       </div>
       <SearchBar onSearch={onSearch} />
     </div>
